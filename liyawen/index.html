@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>移动端</title>
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font_icxswcudnsi./iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+            <span class="iconfont"><span class="span1"></span>&#xe640;</span>
+            <p class="p1">Woman, Dresses</p>
+            <span class="iconfont"><span class="span2"></span>&#xe60a;</span>
+            <ul class="zm">
+            <li class="wi">ADD TO WISHLIST</li>
+            <li class="ca">ADD TO CART</li>
+            </ul>
+        </div>
+        <div class="bj">
+        <div class="content">
+        <img src="images/mm.jpg">
+        <ul class="jiage"> 
+            <li class="li1">Elegant Pink Dresses</li>
+            <li class="li2">$605,00</li>
+        </ul>
+        </div>
+        <div class="con_1">
+             <span class="iconfont span3">&#xe630;</span>
+             <p class="p2">Description</p>
+        </div>
+        <div class="con_2">
+            <span class="iconfont span4">&#xe6d2;&nbsp;&nbsp;Colour:</span>
+             <p class="p3">Choose a colour for item</p>
+             <ul class="kuang">
+                 <li class="kuang1"></li>
+                 <li class="kuang2"></li>
+                 <li class="kuang3"></li>
+                 <span class="iconfont span5">&#xe503;</span>
+             </ul>
+              <span class="iconfont span6">&#xe6bd;&nbsp;&nbsp;Size:</span>
+             <p class="p4">Size available for this item</p>
+             <ul class="kuang_xia">
+                 <li class="kuang4">6</li>
+                 <li class="kuang5">8</li>
+                 <li class="kuang6">10</li>
+                 <li class="kuang7">12</li>
+                 <li class="kuang8">14</li>
+             </ul>
+
+        </div>
+        <div class="btm">
+            <P class="p5">Add to Cart</P>
+            <p class="p6">SHARE ON</p>
+        </div>
+        <div class="btm_1"></div>
+        <div class="btm_2">
+            <ul class="yuan">
+                <li class="li3"></li>
+                <li class="li4"></li>
+                <li class="li5"></li>
+            </ul>
+            <span class="iconfont span7">&#xe504;</span>
+            <span class="iconfont span8">&#xe697;</span>
+            <span class="iconfont span9">&#xe502;</span>
+            <img src="images/baikuang.png" class="img1">
+            <img src="images/bk1.png" class="img2">
+            <img src="images/bk2.png" class="img3">
+        </div>
+
+    </div>
+    </div>
+
+</body>
+</html>
